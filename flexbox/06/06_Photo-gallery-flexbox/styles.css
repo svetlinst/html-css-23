@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+body,
+ul,
+li {
+    display: flex;
+}
+
+.gallery {
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+ul {
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+img {
+    padding: 24px;
+}

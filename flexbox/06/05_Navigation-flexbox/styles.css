@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 32px;
+    padding: 32px;
+}
+
+header {
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

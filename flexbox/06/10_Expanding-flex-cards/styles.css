@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 12px;
+}
+
+img {
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+img:nth-child(2) {
+    width: 500px;
+}
+
+img:hover {
+    width: 500px;
+}
