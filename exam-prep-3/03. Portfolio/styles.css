@@ -1,0 +1,59 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    background-color: white;
+    margin: 20px auto;
+}
+
+.content {
+    max-width: 1880px;
+    height: calc(50vh - 40px);
+    background-color: #efefef;
+    color: #575757;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-container {
+    width: 500px;
+    align-self: center;
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.section-heading {
+    font-weight: normal;
+}
+
+.section-heading .focus {
+    font-weight: bold;
+}
+
+.section-text {
+    font-style: italic;
+}
+
+.title img {
+    max-width: 40%;
+}
+
+.divider.vertical {
+    height: 50px;
+    width: 1px;
+    background-color: black;
+}
+
+.divider.horizontal {
+    height: 1px;
+    width: 50px;
+    background-color: black;
+}

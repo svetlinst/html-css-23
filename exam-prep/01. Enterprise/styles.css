@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(246, 248, 249);
+    width: 50%;
+    margin: auto;
+    padding: 64px;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.title {
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.description {
+    margin-bottom: 32px;
+    font-weight: 200;
+    letter-spacing: 0.2px;
+    line-height: 1.5rem;
+}
+
+.container main {
+    width: 450px;
+}
+
+.description {
+    color: rgb(134, 143, 151);
+}
+
+.action-bar {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+
+.action-bar a {
+    text-decoration: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    display: inline-block;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.contact-sales {
+    background-color: rgb(120, 110, 255);
+    color: white;
+    border: 1px solid rgb(120, 110, 255);
+}
+
+.learn-more {
+    /* background-color: rgb(246, 248, 249); */
+    color: black;
+    border: 1px solid black;
+}
+
+
+img {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    height: 85%;
+}

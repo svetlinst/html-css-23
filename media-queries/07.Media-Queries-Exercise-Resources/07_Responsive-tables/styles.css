@@ -1,0 +1,23 @@
+body {
+    background-color: lightgray;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+}
+
+tr td {
+    border: 1px solid white;
+    padding-left: 12px;
+    width: 30%;
+}
+
+tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}

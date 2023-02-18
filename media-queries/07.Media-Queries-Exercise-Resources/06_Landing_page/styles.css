@@ -1,0 +1,250 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* HEADER */
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company h1 {
+    color: purple;
+    font-size: 40px;
+}
+
+.company p{
+    text-transform: uppercase;
+    font-size: 14px;
+    /* letter-spacing: -2px; */
+}
+
+.site-header {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.navigation {
+    display: inline;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+}
+
+/* NEED A WEBSITE */
+
+.need-a-website {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 12px;
+}
+
+.website-info {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto;
+    gap: 12px;
+}
+
+.website-info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.website-info-pic p i {
+    font-size: 150px;
+}
+
+/* OUR TEAM */
+
+.border-underline {
+    min-height: 80px;
+}
+
+.our-team h2 {
+    text-align: center;
+    position: relative;
+}
+
+.our-team h2::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #000;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* MEMBERS */
+
+.people-cards {
+    display: flex;
+    padding: 0px 12px;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.member-pic {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 0 24px grey;
+    margin-bottom: 24px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin-bottom: 32px;
+}
+
+.member-title {
+    margin-bottom: 32px;
+}
+
+.member-info {
+    text-align: center;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    text-align: center;
+    background-color: rgb(90, 0, 90);
+    color: white;
+    padding: 24px 0;
+    /* margin-bottom: 36px; */
+}
+
+.newsletter-header {
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.newsletter-header h2::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #000;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    background: repeating-linear-gradient(
+        135deg,
+        rgb(248, 247, 247),
+        rgb(248, 247, 247 ) 10px,
+        rgb(238, 238, 238) 10px,
+        rgb(238, 238, 238) 20px
+    );
+    padding-top: 32px;
+    box-shadow: 0 0 24px grey;
+}
+
+.testimonials h2 {
+    text-align: center;
+    position: relative;
+}
+
+.testimonials h2::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 4px;
+    background: #000;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.feedback-info {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 80%;
+    padding: 0 12px;
+}
+
+.footer-info {
+    width: 30%;
+}
+
+.sitemap {
+    width: 30%;
+}
+
+.sitemap ul {
+    display: flex;
+    flex-direction: column;
+    max-height: 100px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.sitemap ul li {
+    list-style: none;
+}
+
+.sitemap ul li a {
+    text-decoration: none;
+}
+
+.contacts {
+    width: 30%;
+}
