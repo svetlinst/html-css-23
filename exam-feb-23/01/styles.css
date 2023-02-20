@@ -1,0 +1,102 @@
+@import "https://use.fontawesome.com/releases/v5.15.4/css/all.css";
+
+:root {
+    --container-background: #f6e0b5;
+    --card-background: #66545d;
+    --cateogries-font: #685964;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 80%;
+    background-color: var(--container-background);
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-areas:
+        "review celebs other"
+        "guides arts-and-culture other";
+    margin: 24px auto;
+    padding: 64px;
+    column-gap: 40px;
+    row-gap: 24px;
+}
+
+.card {
+    max-width: 100%;
+    background-color: var(--card-background);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    box-shadow: 20px 20px 80px black;
+}
+
+.card-img {
+    overflow: hidden;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    color: white;
+    padding: 8px 12px;
+    font-size: 24px;
+}
+
+/* Align cards */
+
+/* Review */
+.review {
+    grid-area: review;
+}
+
+/* Celebs */
+
+.celebs {
+    grid-area: celebs;
+}
+
+/* Guides */
+
+.guides {
+    grid-area: guides;
+}
+
+
+/* Arts and Culture */
+
+.arts-and-culture {
+    grid-area: arts-and-culture;
+}
+
+/* Other Category */
+
+.other {
+    grid-area: other;
+    color: var(--cateogries-font);
+    font-size: 20px;
+    padding-left: 12px;
+}
+
+.other .title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.other ul {
+    padding: 0;
+}
+
+.other li {
+    margin-bottom: 10px;
+    font-size: 28px;
+
+}
